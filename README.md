@@ -24,7 +24,10 @@ To run this widget, please follow these steps to install dependencies:
     ```
     cd testwidget && npm install
     ```
-
+5. Also, install dependencies in root directory
+    ```
+    npm install
+    ```
 ## Running
 
 Once the dependencies are installed, follow these instructions to run the backend and the widget:
