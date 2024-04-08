@@ -61,4 +61,3 @@ If you want to update your changes in the browser, follow these steps:
 npm run watch:browser
 ```
 
-This will enable you to detect your changes reflected  in the browser.
