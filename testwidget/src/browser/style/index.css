@@ -1,0 +1,101 @@
+#widget-container h2 {
+  color: var(--theia-ui-font-color1);
+  font-size: 12px;
+  font-weight: 400;
+  padding: 10px;
+  text-transform: uppercase;
+}
+/* chatbot box  */
+.chatbox {
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden;
+  box-sizing: border-box;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 1px;
+}
+.chatbot-inner {
+  position: relative;
+  height: 100%;
+}
+
+.chat-messages {
+  overflow-y: hidden;
+  padding: 10px 0;
+}
+.chat-messages p {
+  margin: 0;
+  margin-bottom: 10px;
+}
+.message {
+  background-color: #f1f1f1;
+  padding: 5px 10px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+
+.message.user {
+  background-color: #d3f7cd;
+  text-align: right;
+}
+
+/* Styles for the input field and send button */
+.input-container {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  position: absolute;
+  bottom: 0;
+}
+
+.input-field {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.send-button {
+  padding: 8px 15px;
+  /* margin-left: 5px;   */
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.send-button:hover {
+  background-color: #45a049;
+}
+.user-chat {
+  text-align: right;
+  margin-bottom: 6px;
+}
+.bot-chat {
+  text-align: left;
+  margin-bottom: 6px;
+}
+.user-chat p,
+.bot-chat p {
+  font-size: 14px;
+  display: inline-block;
+  background: #d8d8d8;
+  padding: 0px 10px;
+  padding-bottom: 4px;
+}
+.user-chat p {
+  margin-left: 25px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.bot-chat p {
+  margin-right: 25px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
