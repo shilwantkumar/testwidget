@@ -4,4 +4,3 @@ lib
 *.log
 *-app/*
 !*-app/package.json
-/testwidget/node_modules
